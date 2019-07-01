@@ -1,0 +1,71 @@
+ul,ol{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.header-area-wrap{
+  background-color: #000000;
+}
+.logo-wrap {
+	padding: 10px 0;
+}
+.main-menu ul li {
+	display: inline-block;
+  padding: 10px 0;
+  border-right: 1px solid #1A1A1A;
+}
+.main-menu ul li:first-child{
+  border-left: 1px solid #1A1A1A;
+}
+.main-menu ul li a {
+	font-size: 14px;
+	text-transform: uppercase;
+	display: block;
+  padding: 10px 20px;
+  color: #888888;
+}
+.main-menu ul li a:hover{
+  color: #e12020;
+}
+
+.header-right .cart-area, .header-right .setting-area{
+  padding: 10px 0;
+}
+.header-right .cart-area{
+  border-left: 1px solid #1A1A1A;
+}
+.header-right a{
+  font-size: 13px;
+  color: #888888;
+  display: block;
+  padding: 10px 20px;
+}
+.header-right .setting-area > a:hover{
+  color: #e12020;
+}
+.header-right .setting-area > a::after {
+	content: "\f107";
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	margin-left: 10px;
+}
+.header-right .cart-area a{
+  padding-right: 0;
+}
+.header-right a i{
+  margin-right: 10px;
+}
+.header-right a > span{
+  color: #e12020;
+}
